@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+* {
+  transition: all 0.2s ease 0s;
+}
+
+.container {
+  margin: auto;
+  margin-top: 50px;
+  box-sizing: border-box;
+  width: 700px;
+}
+.container h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+.container > p {
+  text-align: center;
+  color: gray;
+  margin-top: 0;
+}
+.products-top {
+  margin: 25px 0;
+}
+.products-top .input-area {
+  width: 100%;
+}
+.products-top .input-area input {
+  width: 65%;
+  outline: none;
+  background-color: #f8f7fc;
+  border: 0;
+  border-color: #ececee;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+}
+.products-top .input-area button {
+  width: 30%;
+  outline: none;
+  background-color: #3f36b2;
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+.products-top .input-area button:hover {
+  background-color: #2a2d8a;
+  cursor: pointer;
+}
+
+.products-bottom .products-functions {
+  position: relative;
+  display: flex;
+}
+.products-bottom .product-counter {
+  position: absolute;
+  left: 0;
+}
+.products-bottom .product-counter .counter-number {
+  color: #f06574;
+  font-weight: 700;
+}
+.products-bottom a {
+  position: absolute;
+  right: 0;
+  color: #3f36b2;
+
+}
+.products-bottom a:hover {
+  color: #f06574;
+}
+.products-bottom ul {
+  position: relative;
+  margin: 30px 0;
+  padding: 0;
+}
+.products-bottom ul li {
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  list-style: none;
+  color: #f06574;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.products-bottom ul li:hover {
+  background-color: #f06574;
+  color: #fff;
+}
